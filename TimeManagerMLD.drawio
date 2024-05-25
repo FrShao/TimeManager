@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T12:55:38.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="_bGPwLQpvxFEFUkvU-I4" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T14:00:00.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="YUrYwiOgrIVng1GocZsK" version="24.4.8" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1161" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -533,7 +533,7 @@
         <mxCell id="mGwYZUv4kKZZp3_qNT_s-11" value="PersonShift" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="437" y="320" width="160" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="mGwYZUv4kKZZp3_qNT_s-12" value="+ day: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-11" vertex="1">
+        <mxCell id="mGwYZUv4kKZZp3_qNT_s-12" value="+ day: enum(int?)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-11" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mGwYZUv4kKZZp3_qNT_s-18" value="+ person_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-11" vertex="1">
@@ -548,7 +548,7 @@
         <mxCell id="mGwYZUv4kKZZp3_qNT_s-21" value="CategoryShift" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="629" y="108" width="160" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="mGwYZUv4kKZZp3_qNT_s-22" value="+ day: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-21" vertex="1">
+        <mxCell id="mGwYZUv4kKZZp3_qNT_s-22" value="+ day: enum(int?)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-21" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mGwYZUv4kKZZp3_qNT_s-23" value="+ category_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mGwYZUv4kKZZp3_qNT_s-21" vertex="1">
